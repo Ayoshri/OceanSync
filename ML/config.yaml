@@ -1,0 +1,12 @@
+dataset:
+  root: ./ML
+  train_pairs_csv: ./ML/train_pairs.csv
+  val_pairs_csv: ./ML/val_pairs.csv
+  img_size: 224
+
+training:
+  batch_size: 16
+  lr: 1e-4
+  epochs: 10
+  margin: 1.0
+  device: cuda
